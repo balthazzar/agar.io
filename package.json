@@ -1,0 +1,36 @@
+{
+  "name": "agar.io",
+  "version": "1.0.0",
+  "description": "agar.io clone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/balthazzar/agar.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/balthazzar/agar.io/issues"
+  },
+  "homepage": "https://github.com/balthazzar/agar.io#readme",
+  "dependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.9.1",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.8.0",
+    "express": "^4.13.4",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-nodemon": "^2.1.0",
+    "gulp-uglify": "^1.5.3",
+    "gulp-util": "^3.0.7",
+    "nodemon": "^1.9.2",
+    "simple-quadtree": "^0.1.3",
+    "socket.io": "^1.4.6",
+    "webpack": "^1.13.1",
+    "webpack-stream": "^3.2.0"
+  }
+}
